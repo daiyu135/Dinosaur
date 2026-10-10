@@ -5,7 +5,7 @@
 ## 开始使用
 
 ```bash
-git clone git@github.com:daiyu135/Dinosaur.git
+git clone https://github.com/daiyu135/Dinosaur.git
 cd Dinosaur
 ```
 
@@ -29,4 +29,6 @@ cd Dinosaur
 ## 说明
 
 - 默认分支为 `main`。
+- 克隆使用 HTTPS 地址。本机已通过 `gh auth setup-git` 配置好凭据助手，推送无需手动输入密码；如果换机器或换账号，用 `gh auth login` 重新授权即可。
+- 国内网络访问 `github.com` 可能需要代理/VPN；`api.github.com` 与 SSH（22 或 443 端口）通常可直连。
 - `.workbuddy/` 为本地工作区数据，已加入 `.gitignore`，不会上传。
